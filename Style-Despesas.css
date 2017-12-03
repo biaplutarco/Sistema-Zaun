@@ -1,0 +1,12 @@
+ul {
+    background-color: #1E1E1E;
+}
+
+li a:hover:not(.active){
+    text-decoration: none;
+}
+.active{
+    background-color: #00897b;
+    text-decoration: none;
+  
+}
