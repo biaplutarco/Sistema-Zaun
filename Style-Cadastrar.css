@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cadastro{
+    padding-top: 120px;
+    max-width:650px;
+    padding-left: 400px;
+}
+
+#cadastrar{
+    background-color: #00acc1;
+}
+
+.cadastro-image{
+    background-image: url("Imagens/zaun2.png");
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

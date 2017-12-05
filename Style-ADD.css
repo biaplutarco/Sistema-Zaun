@@ -7,12 +7,27 @@ li a:hover:not(.active){
     text-decoration: none;
 }
 .active{
-    background-color: #00897b;
+    background-color: #00acc1;
     text-decoration: none;
-  
 }
 
 
 .btn{
     float: right;
+}
+
+#a{
+    background-color: #00acc1;
+}
+
+#b{
+    background-color: #00acc1;
+}
+
+#c{
+    background-color: #00acc1;
+}
+
+#d{
+    background-color: #00acc1;
 }

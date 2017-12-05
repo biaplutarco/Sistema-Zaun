@@ -37,52 +37,21 @@ body, html {
   color: white;
 }    
 
-.enviar button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 15px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-
-
-.cadastro{
-    position: absolute;
-    padding-left: 700px;
-    padding-bottom: 200px;
-    padding-top: 160px;
-
-}
-
-.cadastro-image{
-    background-image: url("Imagens/zaun.jpg");
-    height: 100%;
-    margin: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-body {margin:0;}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    opacity: 0.7;
     position: fixed;
     top: 0;
     width: 100%;
+    text-decoration: none;
 }
 
 li {
     float: left;
+    text-decoration: none;
 }
 
 li a {
@@ -99,6 +68,6 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #e57373;
+    background-color: #00acc1;
+    text-decoration: none;
 }
-

@@ -17,9 +17,9 @@
         <main>
             <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper">
+                <div class="">
                   <a href="#" class="brand-logo"><img src="Imagens/botao.png"></a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <ul id="menu" class="right hide-on-med-and-down">
                     <li><a href="Adicionar%20Despesa.html">Adicionar Despesa</a></li>
                     <li><a href="Consultas.html">Consultas</a></li>
                     <li><a href="Sistema%20de%20Contas%20a%20Pagar.html" class="active">Sair</a></li>
@@ -38,8 +38,8 @@
                     <div class="section">
                         <h4 class="col s7">Selecione o tipo de pagamento:</h4>
                         <br>
-                        <input type="button" class="btn col s2 offset" data-toggle="collapse" data-target="#vista" value="À vista">
-                        <input type="button" class="btn col s2 offset right" data-toggle="collapse" data-target="#prazo" value="À prazo">
+                        <input type="button" id="a" class="btn col s2 offset" data-toggle="collapse" data-target="#vista" value="À vista">
+                        <input type="button" id="b" class="btn col s2 offset right" data-toggle="collapse" data-target="#prazo" value="À prazo">
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     <label class="control-label">Data do pagamento:</label>
                     <input type="date">
 
-                    <p><a href="Consultas.html"><input type="button" class="btn btn-danger" value="OK"></a></p>
+                    <p><a href="Consultas.html"><input id="c" type="button" class="btn btn-danger" value="OK"></a></p>
                     <br><br><br>
                 </div>
                 <div class="pl">
@@ -85,7 +85,7 @@
                     <label class="control-label">Multa:</label>
                     <input type="number" placeholder="-">
                     
-                    <p><a href="Consultas.html"><input type="button" class="btn btn-danger" value="OK"></a></p>
+                    <p><a href="Consultas.html"><input id="d" type="button" class="btn btn-danger" value="OK"></a></p>
                     <br><br><br><br><br>
                     </div> </div> 
             </div>
