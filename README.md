@@ -9,7 +9,7 @@ A website for help with payment system.
 
 ![alt text](https://github.com/biaplutarco/Sistema-Zaun/blob/master/Mockup/%231.png?raw=true)
 
-### Sign in
+### Sign up
 
 ![alt text](https://github.com/biaplutarco/Sistema-Zaun/blob/master/Mockup/%232.png?raw=true)
 
