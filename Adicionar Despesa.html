@@ -2,6 +2,7 @@
 <html lang="pt-br" >
     <head>
         <link href="Style-ADD.css" type="text/css" rel="stylesheet">
+        <link rel="shortcut icon" href="Imagens/icon.ico">
         <title>Adicionando Despesa</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,8 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>        
     </head>
     <body>
         <main>
@@ -19,8 +21,7 @@
                   <a href="#" class="brand-logo"><img src="Imagens/botao.png"></a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="Adicionar%20Despesa.html">Adicionar Despesa</a></li>
-                    <li><a href="Despesas.html">Despesas</a></li>
-                    <li><a href="Agenda.html">Agenda</a></li>
+                    <li><a href="Consultas.html">Consultas</a></li>
                     <li><a href="Sistema%20de%20Contas%20a%20Pagar.html" class="active">Sair</a></li>
                   </ul>
                 </div>
@@ -28,17 +29,17 @@
             </div> <!--MENU-->
             
             <div class="container">
-                    <h2>Nova Despesa:</h2>
+                <br>
+                <h3 class="center-align" >Nova Despesa</h3>
             </div>
             
             <div class="container form-group">
                 <div class="row">
-                    <h4 class="col s2"></h4>
-                    <h4 class="col s7 center-align">Selecione o tipo de pagamento:</h4>
-                    
                     <div class="section">
-                        <input type="button" class="btn col xs2" data-toggle="collapse" data-target="#vista" value="À vista">
-                        <input type="button" onclick="function()" class="btn col xs2 offset xs10 right" data-toggle="collapse" data-target="#prazo" value="À prazo">
+                        <h4 class="col s7">Selecione o tipo de pagamento:</h4>
+                        <br>
+                        <input type="button" class="btn col s2 offset" data-toggle="collapse" data-target="#vista" value="À vista">
+                        <input type="button" class="btn col s2 offset right" data-toggle="collapse" data-target="#prazo" value="À prazo">
                     </div>
                 </div>
             </div>
@@ -46,40 +47,47 @@
             <div class="container form-group">  
                 <div class="section">
                 <div id="vista" class="col s6 form-goup collapse">
-                    <label class="control-label" for="total">Valor da despesa:</label>
-                    <input id="total" type="number" placeholder="-">
+                    <label class="control-label">Credor:</label>
+                    <input type="text" placeholder="-">
                     
-                    <label class="control-label" for="Data">Data do pagamento:</label>
-                    <input id="Data" type="date">
-                    
-                    <p><a href="Despesas.html"><input type="button" class="btn btn-danger" value="OK"></a></p> 
-                </div>   
-                    
+                    <label class="control-label">Valor da despesa:</label>
+                    <input type="number" placeholder="-">
+
+                    <label class="control-label">Data do pagamento:</label>
+                    <input type="date">
+
+                    <p><a href="Consultas.html"><input type="button" class="btn btn-danger" value="OK"></a></p>
+                    <br><br><br>
+                </div>
+                <div class="pl">
                 <div id="prazo" class="col s6 form-goup collapse">
-                    <label class="control-label" for="total">Valor da despesa:</label>
-                    <input id="total" type="number" placeholder="-">
+                    <label class="control-label">Credor:</label>
+                    <input type="text" placeholder="-">
                     
-                    <label class="control-label" for="Data">Data do pagamento:</label>
-                    <input id="Data" type="date"> 
+                    <label class="control-label">Valor da despesa:</label>
+                    <input type="number" placeholder="-">
                     
-                    <label class="control-label" for="Parcelas">Quantidade de parcelas:</label>
-                    <input id="Parcelas "type="number" placeholder="-">
+                    <label class="control-label">Data do pagamento:</label>
+                    <input type="date"> 
                     
-                    <label class="control-label" for="Data">Data de Vencimento:</label>
-                    <input id="Data" type="date">
+                    <label class="control-label">Quantidade de parcelas:</label>
+                    <input type="number" placeholder="-">
+                    
+                    <label class="control-label">Data de Vencimento:</label>
+                    <input type="date">
  
-                    <label class="control-label" for="Valor">Valor da parcela:</label>
-                    <input id="Valor" type="number" placeholder="-">
+                    <label class="control-label">Valor da parcela:</label>
+                    <input type="number" placeholder="-">
 
-                    <label class="control-label" for="Juros">Juros:</label>
-                    <input id="Juros "type="number" placeholder="-">
+                    <label class="control-label">Juros:</label>
+                    <input type="number" placeholder="-">
 
-                    <label class="control-label" for="Multa">Multa:</label>
-                    <input id="Multa "type="number" placeholder="-">
+                    <label class="control-label">Multa:</label>
+                    <input type="number" placeholder="-">
                     
-                    <p><a href="Despesas.html"><input type="button" class="btn btn-danger" value="OK"></a></p>
+                    <p><a href="Consultas.html"><input type="button" class="btn btn-danger" value="OK"></a></p>
                     <br><br><br><br><br>
-                </div>   
+                    </div> </div> 
             </div>
             </div>
             

@@ -1,3 +1,4 @@
+
 ul {
     background-color: #1E1E1E;
 }
@@ -11,10 +12,6 @@ li a:hover:not(.active){
   
 }
 
-.container{
-
-
-}
 
 .btn{
     float: right;
